@@ -3,6 +3,7 @@ from discord.ext import commands
 from pretty_help import PrettyHelp
 import requests
 import json
+import os
 
 bot_activity = discord.Game(name='@help | 떡락')
 bot = commands.Bot(command_prefix='@', activity=bot_activity)
