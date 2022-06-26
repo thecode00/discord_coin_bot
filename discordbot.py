@@ -10,7 +10,7 @@ import os
 bot_activity = discord.Game(name='#help | 떡락')
 bot = commands.Bot(command_prefix='#', activity=bot_activity)
 bot.help_command = PrettyHelp()
-TOKEN = os.environ.get('BOT_TOKEN')  # heroku 외부 설정에서 가져옴
+TOKEN = os.environ.get('TOKEN')  # heroku 외부 설정에서 가져옴
 
 
 @bot.event
